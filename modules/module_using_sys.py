@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-
+'''
+implimenting the functionality of a module using sys
+'''
 import sys
 
-print('The following are the list of cmd line arguments: ')
-for i in sys.argv:
-	print(i)
-print(f'And they are {len(sys.argv)} of them')
-print(sys.path)
+
+def print_args():
+    print('The command line arguments are: ')
+    for i in sys.argv:
+        print(i)
+print('\n\nThe PYTHONPATH is', sys.path, '\n')
+print_args()
