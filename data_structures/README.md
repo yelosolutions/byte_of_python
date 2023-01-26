@@ -17,8 +17,22 @@ defined for use with respect to that class only. These variables/names can be us
 when one has an object of the class.
 Both the methods and fields can be accessed by the dot notation.
 
-### Tuples
- 
-### Dictionaries
+### Tuples (object1,object2)
+A tuple is a collection of multiple objects. 
+It is immutable an can be accessed using the indexing
+operator
+
+### Dictionaries {key1:value1, key2:value2}
+A dictionary is a collection of key-value pairs. 
+The key must be unique and immutable like a string, and the values can either be mutable 
+or immutable objects
+The key-value pairs are not ordered.
+
+### Sequences
+Lists, tuples and strings are sequences
+The main features of sequences are:
+1. Membership tests(i.e. the `in` and `not in` expressions)
+2. Indexing operations, whch allows us to fetch a particular item in the sequence directly
+3. Slicing operation, allows for retrieval of a slice of the sequence
 
 ### Sets
