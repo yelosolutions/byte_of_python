@@ -36,3 +36,7 @@ The main features of sequences are:
 3. Slicing operation, allows for retrieval of a slice of the sequence
 
 ### Sets
+Sets are unordered collection of simple objects. 
+Are used when the existance of an object in a collection is far more important than the order
+ or how many times it occurs.
+
