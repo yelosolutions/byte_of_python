@@ -19,7 +19,8 @@ except KeyboardInterrupt:
 except EOFError:
 	print('Why did you call EOF on me?')
 except ShortInputException as ex:
-	print(f'The word you have entered has {ex.length} letters, we expect {ex.atleast}')
+	print(f'ShortInputException: The word you have entered has {ex.length} letters,\
+			 we expect {ex.atleast}')
 else:
-	print(f'This is what you\'ve entered: {text}')
+	print('No exception was raised')
 
